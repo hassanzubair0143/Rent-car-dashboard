@@ -8,10 +8,10 @@ function recentReservation() {
         <p className='font-[400] text-[18px] leading-[27px]'>Recent Reservation</p>
         <p className='text-black underline cursor-pointer'>See More</p>
       </div>
-      <div className='mx-[16px] mt-[18px] bg-[#F9F9F9] border rounded-md border-[#D9D9D9] grid grid-cols-3 p-2'>
-       <p>Customer</p>
-       <p>Vehicle</p>
-       <p>Duration</p>
+      <div className='sm:mx-[16px] md:mx-[16px] lg:mx-[16px] xl:[16px] mt-[18px] bg-[#F9F9F9] border rounded-md border-[#D9D9D9] grid grid-cols-3 p-2'>
+       <p className='text-[12px]'>Customer</p>
+       <p className='text-[12px]'>Vehicle</p>
+       <p className='text-[12px]'>Duration</p>
       </div>
 
       <div className='mx-[16px] py-2 grid grid-cols-3 border-b'>
