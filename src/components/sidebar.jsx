@@ -1,5 +1,5 @@
 // import React from 'react';
-import SidebarContent from './SidebarContent';
+import SidebarContent from './sidebarContent';
 import CarLogo from '../assets/car-logo.png';
 import Dashboard from '../assets/Group 271.png';
 import Calendar from '../assets/calendar-icon.png';

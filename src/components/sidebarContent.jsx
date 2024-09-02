@@ -14,7 +14,7 @@
 // export default sidebarContent
 import React from 'react';
 
-function SidebarContent({ image, heading, isCollapsed }) {
+function sidebarContent({ image, heading, isCollapsed }) {
   return (
     <div className={`flex items-center gap-2 px-4 transition-all duration-300`}>
       <img src={image} alt={heading} className='w-[18px] h-[18px]' />
@@ -25,4 +25,4 @@ function SidebarContent({ image, heading, isCollapsed }) {
   );
 }
 
-export default SidebarContent;
+export default sidebarContent;
