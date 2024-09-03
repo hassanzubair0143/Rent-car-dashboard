@@ -12,8 +12,8 @@ function reservation() {
           <div className='flex flex-col gap-4 px-5 py-5 m-5 bg-white border rounded-md sm:flex-row md:flex-row lg:flex-row xl:flex-row'>
            <div  className='w-[64px] h-[64px] bg-[#242E69]  flex justify-center items-center rounded-md'><img src={Reservation} alt="" className='' /></div> 
             <div className='flex flex-col'>
-              <p className='font-[400] text-[18px] sm:text[20px] md:text-[24px] lg:text-[26px] xl:text-[30px] leading-[39px]'>15</p>
-              <p className='font-[400] text-[12px] sm:text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px] leading-[27px]'>Reservation Today</p>
+              <p className='font-[400] font-rubik text-[18px] sm:text[20px] md:text-[24px] lg:text-[26px] xl:text-[30px] leading-[39px]'>15</p>
+              <p className='font-[400] font-rubik text-[12px] sm:text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px] leading-[27px]'>Reservation Today</p>
             </div>
           </div>
 
@@ -21,8 +21,8 @@ function reservation() {
           <div className='flex flex-col gap-4 px-5 py-5 m-5 bg-white border rounded-md sm:flex-row md:flex-row lg:flex-row xl:flex-row'>
            <div className='w-[64px] h-[64px] bg-[#242E69]  flex justify-center items-center rounded-md'><img src={TotalReservation} alt="" className='' /></div> 
             <div className='flex flex-col'>
-              <p className='font-[400]  text-[18px] sm:text[20px] md:text-[24px] lg:text-[26px] xl:text-[30px] leading-[39px]'>190</p>
-              <p className='font-[400] text-[12px] sm:text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px] leading-[27px]'>Total Reservation</p>
+              <p className='font-[400] font-rubik text-[18px] sm:text[20px] md:text-[24px] lg:text-[26px] xl:text-[30px] leading-[39px]'>190</p>
+              <p className='font-[400] font-rubik text-[12px] sm:text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px] leading-[27px]'>Total Reservation</p>
             </div>
           </div>
 

@@ -25,14 +25,14 @@ function App() {
       <div className='felx flex-col w-[100%]'>
           <Navbar toggleSidebar={toggleSidebar}/>
           <div className='mx-[44px] pt-7'>
-           <p className='font-bold text-[23px]'> Dashboard</p>
+           <p className='font-rubik font-[600] text-[23px]'> Dashboard</p>
           </div>
           <div className=' flex flex-col mx-[40px] my-[30px] bg-[#F9F9F9] border border-[#D9D9D9] rounded-md border-slate-400 border-opacity-50 pb-[60px]'>
           <CarContent/>
           <Reservation/>
           <Revenue/>
          
-         <div className=' flex flex-col lg:flex-row xl:flex-row'>
+         <div className='flex flex-col lg:flex-row xl:flex-row'>
           <Availability/>
           <RecentReservation/>
 

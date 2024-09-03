@@ -19,7 +19,7 @@ function sidebarContent({ image, heading, isCollapsed }) {
     <div className={`flex items-center gap-2 px-4 transition-all duration-300`}>
       <img src={image} alt={heading} className='w-[18px] h-[18px]' />
       {!isCollapsed && (
-        <p className='text-[18px] font-[400] leading-[27px]'>{heading}</p>
+        <p className='text-[18px] font-[400] font-rubik leading-[27px]'>{heading}</p>
       )}
     </div>
   );
